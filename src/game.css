@@ -1,0 +1,168 @@
+.game {
+    width: 100vw;
+    height: 100vh;
+    background: #6e8980;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-button-holder {
+    width: 370px;
+    height: 100%;
+}
+
+.home-button {
+    height: 15%;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.home-button > a {
+    color: white;
+    text-decoration: none !important;
+}
+
+.home-button > a:visited {
+    color: white;
+}
+    
+
+.server-info {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.server-info > h2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.court {
+    height: 550px;
+    width: 450px;
+    background: #2B427F;
+    margin-right: 20px;
+}
+
+.open {
+    height: 40%;
+    width: 100%;
+    border: .5rem solid white;
+    display: flex;
+    background: #2B427F;
+}
+
+.side {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.right {
+    border-right: .5rem solid white;
+}
+
+.kitchen {
+    height: 20%;
+    width: 100%;
+    border-right: .5rem solid white;
+    border-left: .5rem solid white;
+    background: #2B427F;
+}
+
+.score-holder {
+    height:100%;
+    width: 400px;
+    margin-right: 20px;
+}
+
+.score {
+    height:80%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.score-board {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-margin {
+    border-top: .1rem solid white;
+}
+
+.bottom-margin {
+    border-bottom: .1rem solid white;
+}
+
+.team-score-holder {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-score {
+    height: 80px;
+    width: 80px;
+    border: .4rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.add-point-holder {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-point {
+    height: 30px;
+    width: 80px;
+    border: .2rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.game-name {
+    height: 10%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
